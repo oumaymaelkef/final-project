@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELEGANCE</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="navbar">
+        <header>
+            <h1>ELEGANCE</h1>
+            <h2>Bijouterie en ligne</h2>
+            <nav class="main-head">
+                <ul>
+                    <li><a href="#">BRACELETS</a></li>
+                    <li><a href="#">COLIERS</a></li>
+                    <li><a href="#">BAGUES</a></li>
+                    <li><a href="#">BOUCLES D'OREUILLES</a></li>
+                    <li><a href="#">MONTRES</a></li>
+                </ul>
+            </nav>
+            <div class="search-container">
+                <form action="/action_page.php">
+                    <input type="text" placeholder="Search.." name="search">
+
+                </form>
+            </div>
+        </header>
+    </div>
+    <section>
+
+        <h2 class="center">Automatic Slideshow</h2>
+
+        <div class="content section" >
+            <img class="mySlides" src="images/slider_colliers_desk_020424.avif" width=100%>
+            <img class="mySlides" src="images/slider_booster_extra_desk.avif" width="100%">
+            <img class="mySlides" src="images/slider_sector_desk_210324.avif" width="100%">
+        </div>
+        <script>
+            var myIndex = 0;
+            carousel();
+
+            function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                myIndex++;
+                if (myIndex > x.length) { myIndex = 1 }
+                x[myIndex - 1].style.display = "block";
+                setTimeout(carousel, 2000);
+            }
+        </script>
+        <div class="title">
+            <h1>A propos de nous </h1>
+            <h2>ELEGANCE : la bijouterie en ligne <br> Bijoux et Montres pour Femme, Homme et Enfant</h2>
+            <h3>Retrouvez vos bijoux, vos montres et vos marques préférées sur ELEGANCE.com</h3>
+
+        </div>
+
+
+
+        <div class="paragraphe">
+            ELEGANCE sélectionne et confectionne avec attention les plus beaux bijoux pour femme, homme et
+            enfant. <br> Grâce à cette sélection, trouver le bijou parfait ou le cadeau idéal devient un jeu
+            d'enfant ! <br>
+
+            Notre vaste catalogue vous permet d'identifier rapidement et facilement le bijou qui vous convient :
+            tous nos produits sont catégorisés en fonction de leur matière précieuse, des pierres qui les composent
+            ou de leur design et formes. <br>
+
+            Chaque bijou est confectionné avec des matériaux précieux et de qualité : diamants, perles, or, argent,
+            pierres précieuses, etc. <br>
+            ELEGANCE donne en effet une priorité au contrôle de cette qualité. Marque de bijouterie française
+            historique, nous avons à cœur depuis plus de 20 ans de vous offrir la meilleure qualité et le meilleur
+            style à un prix juste et raisonnable. <br>
+            Depuis de nombreuses années, nous contrôlons donc toute la chaîne de confection des bijoux : de la
+            collecte de la matière première dans les mines à l'assemblage, en passant par les étapes de conception
+            créative. <br>
+            ELEGANCE s'illustre ainsi notamment dans la confection des bijoux en or 18 carats. Ces bijoux nobles et
+            précieux sont un des éléments constitutifs de l'histoire de la marque.</p>
+
+        </div>
+    </section> <br> <br><br>
+    <section class="services">
+        <h1>LE MAGAZINE ELEGANCE</h1>
+        <div class="services-col">
+
+
+            <div class="box">
+                <img src="images/images (1).jpg" width="300px" height="200px" alt="">
+                <h1>COUPS DE COEUR</h1>
+                <p>LA PIERRE DU MOIS : LE DIAMANT ! <br> <br> <button> VOIR PLUS</button></p>
+            </div>
+
+
+
+            <div class="box-2">
+                <img src="images/images.jpg" width="300px" height="200px" alt="">
+                <h1>TENDANCES</h1>
+                <p>ON PASSE À L'HEURE D'ÉTÉ !<br><br><button>VOIR PLUS</button></p>
+            </div>
+
+
+
+            <div class="box-3">
+                <img src="images/téléchargement (1).jpg" width="300px" height="200px" alt="">
+                <h1>TENDANCES</h1>
+                <p>RETOUR DU PRINTEMPS : QUELS BIJOUX ADOPTER ?<br> <br><button>VOIR PLUS</button></p>
+            </div>
+
+
+
+
+        </div>
+        </div>
+
+    </section>
+    <br> <br> <br><br>
+
+
+
+    <div class="left">
+        <h1>NOUVEAUTÉS</h1>
+        <p>Découvrez les accessoires les plus tendance avec Strass Accessoires. Parcourez notre sélection de pièces
+            incontournables qui rehausseront instantanément votre style. Des sacs à main élégants aux bijoux
+            raffinés, en passant par les écharpes et les ceintures chic, notre collection offre une gamme variée
+            d'accessoires pour compléter toutes vos tenues..</p>
+        <br><br>
+        <img src="images/logo.png" alt="">
+    </div>
+    <br> <br><br><br>
+
+    <div class="right">
+        <div class="boxx">
+            <img src="images/collier-cleor-en-argent-9251000-jaune-et-oxyde@2x.avif" width="80" height="100">
+
+            <p>Collier CLEOR en Argent 925/1000 Jaune et Oxyde</p>
+            <h6>99,00 DT</h6>
+        </div>
+        <div class="up">
+            <div class="boxx">
+                <img src="images/bague-juliette-or-375-1000-oxyde-z0159694@2x.avif" width="80" height="100" alt="">
+
+                <p>Bague JULIETTE en Or 375/1000 Jaune et Oxyde Bleu/</p>
+                <h6>122,50 DT</h6>
+            </div>
+        </div>
+        <div class="boxx"><img src="images/bracelet-cleor-argent-925-1000-oxyde-z0153590@2x.avif" width="80"
+                height="100" alt="">
+
+            <p>Collier CLEOR en Argent 925/1000 et Oxyde Violet</p>
+            <h6>75,00 DT</h6>
+        </div>
+        <div class="up">
+            <div class="boxx"><img src="images/collier-cleor-en-argent-9251000-jaune-et-oxyde@2x.avif" width="80"
+                    height="100" alt="">
+
+                <p>Bracelet CLEOR en Argent 925/1000 et Oxyde Violet</p>
+                <h6>69,00 DT</h6>
+            </div>
+        </div>
+
+
+        <section class="offices">
+            <h1>NOS MAGASINS À VOTRE SERVICE </h1>
+            <br><br>
+            <p>
+                PLUS DE 170 MAGASINS POUR VOUS OFFRIR UNE EXPÉRIENCE D'ACHAT UNIQUE. DÉCOUVREZ NOS BOUTIQUES ET PROFITEZ
+                DE
+                TOUS LES SERVICES !
+            </p>
+            <br><br><br><br><br>
+
+
+    </div>
+    </section>
+
+
+</body>
+<footer>
+    <div class="pages">
+        <h2>contactez-nous</h2>
+
+        <div class="reseau ">
+            <a href=""><img src="images/téléchargement (6).svg" width="30" height="30" alt="">
+
+
+            </a>
+
+            <a href=""><img src="images/téléchargement (7).svg" width="30" height="30" alt="">
+
+
+            </a>
+            <a href=""><img src="images/téléchargement (8).svg" width="30" height="30" alt="">
+
+
+            </a>
+            <a href=""><img src="images/téléchargement (9).svg" width="30" height="30" alt="">
+
+
+            </a>
+        </div>
+
+    </div>
+    <br> <br><br>
+    <div class="bran-logo">
+        <div><a href=""><img src="images/téléchargement.svg" width="80" height="30" alt="">
+                <p>garantie des produits </p>
+            </a></div>
+        <div><a href=""><img src="images/téléchargement (1).svg" width="80" height="30" alt="">
+                <p>carte de fidélité </p>
+            </a></div>
+        <div><a href=""><img src="images/téléchargement (2).svg" width="80" height="30" alt="">
+                <p>Livraison gratuite </p>
+            </a></div>
+        <div><a href=""><img src="images/téléchargement (3).svg" width="80" height="30" alt="">
+                <p>satisfait ou remboursé
+            </a></p>
+        </div>
+        <div><a href=""><img src="images/téléchargement (4).svg" width="80" height="30" alt="">
+                <p>Plus de 100 boutiques
+            </a></p>
+        </div>
+
+    </div>
+
+
+    <br>
+    <p class="page">WWW.ELEGANCE.COM © 2024</p>
+    <br>
+</footer>
+
+</html>
